@@ -12,7 +12,7 @@ public class Rp {
 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Vlad\\Documents\\Selenium\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://habborp.co/");
+		driver.get("http://google.com/"); //Test was for rp
 		
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
