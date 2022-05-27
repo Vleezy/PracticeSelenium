@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void extracted()&apos; from &apos;dev.romero.demo.CheckboxesExcercise.main(...)&apos; to &apos;dev.romero.demo.CheckboxesExcercise&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Method name: &apos;extracted&apos;&#x0D;&#x0A;- Destination type: &apos;dev.romero.demo.CheckboxesExcercise&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;extracted&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;dev.romero.demo{CheckboxesExcercise.java" name="extracted" replace="false" selection="708 49" stamp="1611072101410" version="1.0" visibility="2"/>
+</session>

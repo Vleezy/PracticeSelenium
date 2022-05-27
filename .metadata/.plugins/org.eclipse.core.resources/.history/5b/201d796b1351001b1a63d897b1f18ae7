@@ -1,0 +1,13 @@
+package dev.romero.demo;
+
+public class CssSelector {
+
+	public static void main(String[] args) {
+		
+		
+		xpath= //div[@class='identity first']
+
+	
+				Css= div[class='identity first']
+	}
+}

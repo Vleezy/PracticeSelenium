@@ -1,0 +1,38 @@
+package dev.romero.demo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+
+public class CheckboxesExcercise {
+
+	
+@SuppressWarnings("unused")
+public static void main(String[] args) throws InterruptedException {
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Vlad\\Documents\\Selenium\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+	
+		driver.findElement(By.xpath("//*[@id='checkBoxOption1']")).click();
+		if (true)
+			System.out.println(driver.findElement(By.xpath("//*[@id='checkBoxOption1']")).isSelected());
+			successMessage();
+		else
+			errorMessage();
+		
+		Assert.assertTrue(driver.findElement(By.xpath("//*[@id='checkBoxOption1']")).isSelected());
+		driver.findElement(By.xpath("//*[@id='checkBoxOption1']")).click();
+		
+		
+}
+
+private static void errorMessage() {
+	System.out.println("Fuck, something went wrong!");
+}
+private static void successMessage() {
+	System.out.println("Looks like things worked out buddy!");
+}
+}

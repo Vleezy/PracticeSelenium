@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+C:\Users\Vlad\Desktop\SeleniumNotes\.metadata\.plugins\org.eclipse.jdt.core
+3112414815.index
+1792832951.index
+4038093308.index
+2446798781.index
+383338267.index
+1035905701.index
+3069694561.index
+23543637.index
+593422392.index
+2736318078.index
+504180264.index
